@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styless.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </div>
+    <form id="survey-form">
+      <fieldset class="container1">
+        <label for="name" id="name-label">Name <input id="name" type="text" placeholder="Name" required /></label>
+        <label for="email" id="email-label">Email <input id="email" type="email" placeholder="email@some.com" required /></label>
+        <label for="number" id="number-label">Age <input id="number" type="number" min="18" max="50" placeholder="Age"required /></label>
+        <label for="dropdown">Wich option best describe your current role?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Prefer not to say</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <label for="definetly"><input type="radio" id="definetly" name="refeer" value="3" class="inline"/>Definetly</label>
+        <label for="maybe"><input type="radio" id="maybe" name="refeer" value="2" class="inline"/>Maybe</label>
+        <label for="not-sure"><input type="radio" id="not-sure" name="refeer" value="1"  class="inline"/>Not Sure</label>
+      </fieldset>
+      <fieldset>
+              <!-- AQUI VAN LOS CHECKBOXES (step 14) -->
+        <label>What languages would you like to learn?</label>
+        <label class="inline">
+          <input name="language" value="javascript" type="checkbox" /> JavaScript
+        </label>
+        <label>
+          <input name="language" value="java" type="checkbox" /> Java
+        </label>
+        <label>
+          <input name="language" value="phyton" type="checkbox" /> Phyton
+        </label>
+        <label>
+          <input name="language" value="c++" type="checkbox" /> C++
+        </label>
+        <label>
+          <input name="language" value="sql" type="checkbox" /> SQL
+        </label>
+        <label>
+          <input name="language" value="php" type="checkbox" /> PHP
+        </label>
+      </fieldset>  
+      <fieldset>
+       <label for="comments">Anny comments or suggestions?
+         <textarea id="comments" rows="3" cols="30" placeholder="Todo comentario o sugerencia se agradece." ></textarea>
+      </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+/*Hacer que la imagen cubra pantalla completa
+  * background: url("LINK DE LA IMAGEN");
+  * background-size: cover;
+  * background-attachment: fixed; 
+*/
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.pexels.com%2Fphotos%2F93046%2Fpexels-photo-93046.jpeg&f=1&nofb=1&ipt=1ed5e74c9e060532eecfc0e80e9e8cbe1f6f3f1c48b521bcad328781d1471b05&ipo=images");
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(212, 183, 183);
+}
+
+.header{
+  text-align: center;
+  margin: auto;
+  width: 65%;
+  margin-top: 5rem;
+  background-color: rgba(80, 78, 76, 65%);
+  color: white;
+  border-radius: 1rem;
+}
+
+.title{
+  font-size: 1.8em;
+}
+
+.description{
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+form{
+  background-color: rgba(80, 78, 76, 65%);
+  width:65%;
+  margin: 10px auto;
+  border-radius: 1rem;
+}
+
+input{
+  background-color: rgba(8, 8, 8, 0.65);
+  color: antiquewhite;
+}
+
+label{
+  display: block;
+  margin: 0.5rem 1rem; /* margen top y bottom de .5rem. Left y Right de 0 */
+}
+
+fieldset{
+  padding: 2rem auto;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+fieldset:last-of-type{
+  border-bottom: none;
+}
+
+#submit{
+  width: 60%;
+  display: block;
+  margin: 1rem auto;
+  height: 2rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+}
+
+#comments{
+  background-color: rgba(37, 37, 36, 0.65);
+  border: 1px solid rgb(17, 17, 17);
+  color: antiquewhite;
+}
+

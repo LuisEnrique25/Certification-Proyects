@@ -1,0 +1,73 @@
+body{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gamersdecide.com%2Fsites%2Fdefault%2Ffiles%2Fcontent-images%2Fnews%2F2016%2F07%2F04%2F10-ways-blizzard-can-make-world-warcraft-awesome%2Fbattle.jpg&f=1&nofb=1&ipt=ae21012608c45ea7a7ae28b0d35d6b42f72ebffcbfe8a924aedf6b876aff904b&ipo=images");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+#img-div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: rgba(54, 40, 40, 80%);
+    padding: 20px 0 20px 0;
+    border-radius: 1rem;
+}
+#img-caption{
+    border: none;
+
+    text-align:center;
+
+
+    color: rgb(185, 174, 21);
+    font-size: 20px;
+
+}
+
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#title{
+    width: 100%;
+    color: rgb(12, 12, 145);
+    text-align:center;
+    font-size: 21px;
+}
+
+#tribute-info{
+    
+    border: none;
+    width: 50%;
+    padding: 2rem 0;
+    background-color: rgba(54, 40, 40, 80%);
+    text-align:center;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    color: rgb(185, 174, 21);
+    font-size: 18px;
+}
+
+footer{
+    border: none;
+    
+    background-color: rgba(54, 40, 40, 80%);
+    text-align:center;
+
+    padding: 10px;
+
+   
+    color: rgb(112, 138, 224);
+    font-size: 18px;
+
+}
+a{
+    text-decoration: none;
+    color: aqua
+}
+

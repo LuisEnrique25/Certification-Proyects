@@ -12,7 +12,7 @@ body{
   background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.pexels.com%2Fphotos%2F93046%2Fpexels-photo-93046.jpeg&f=1&nofb=1&ipt=1ed5e74c9e060532eecfc0e80e9e8cbe1f6f3f1c48b521bcad328781d1471b05&ipo=images");
   background-size: cover;
   background-attachment: fixed;
-  color: rgb(212, 183, 183);
+  color: rgb(214, 196, 196);
 }
 
 .header{
@@ -39,6 +39,7 @@ form{
   width:65%;
   margin: 10px auto;
   border-radius: 1rem;
+  font-size: 19px;
 }
 
 input{
@@ -52,9 +53,9 @@ label{
 }
 
 fieldset{
-  padding: 2rem auto;
+  padding: 1rem 3rem;
   border: none;
-  border-bottom: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px ;
 }
 fieldset:last-of-type{
   border-bottom: none;
